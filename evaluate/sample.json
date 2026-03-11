@@ -1,0 +1,70 @@
+[
+  {
+    "question": "富士通の社長は誰ですか？",
+    "predicted_answer": "富士通株式会社の社長は時田隆仁氏です。彼は1988年に富士通に入社し、2019年6月に代表取締役社長に就任しました。彼の経歴には、金融システム事業本部長や執行役員常務などの役職が含まれています。時田氏は、デジタル変革を推進し、企業の中長期的な価値創造と成長を実現するために「ネットポジティブ」という概念を強調しています。これは、2030年に向けたビジョンに基づいており、持続可能な社会の実現に向けた取り組みを進めることを目指しています。",
+    "correct_answer": "富士通の社長は、時田隆仁氏です。",
+    "predicted_references": [
+      {
+        "pdf": "富士通統合レポート2024.pdf",
+        "page": "76"
+      },
+      {
+        "pdf": "Fujitsu-ShareholdersMTG-FY2023.pdf",
+        "page": "12"
+      },
+      {
+        "pdf": "富士通統合レポート2024.pdf",
+        "page": "15"
+      },
+      {
+        "pdf": "Fujitsu-Databook-FY2020-Organization.pdf",
+        "page": "1"
+      },
+      {
+        "pdf": "富士通統合レポート2024.pdf",
+        "page": "70"
+      }
+    ],
+    "correct_references": [
+      {
+        "pdf": "富士通統合レポート2024.pdf",
+        "page": "76"
+      }
+    ],
+    "success": true
+  },
+  {
+    "question": "富士通の2025年3月期の第3四半期までの売上収益と前年比は？",
+    "predicted_answer": "富士通の2025年3月期第3四半期の売上収益は2,621,432百万円です。前年同期比は、2023年度の売上収益が3兆7,560億円（37,560百万円）であるため、前年比の具体的な数値は示されていませんが、2024年度の業績が前年よりも減少していることが示唆されています。",
+    "correct_answer": "富士通の2025年3月期の第3四半期までの売上収益は2兆6214億円で、前年比0.8%減です。",
+    "predicted_references": [
+      {
+        "pdf": "Fujitsu-ShareholdersMTG-FY2023.pdf",
+        "page": "3"
+      },
+      {
+        "pdf": "2024年度第2四半期決算概要.pdf",
+        "page": "22"
+      },
+      {
+        "pdf": "Fujitsu-IFRS-FY2024-3Q.pdf",
+        "page": "6"
+      },
+      {
+        "pdf": "Fujitsu-IFRS-FY2024-3Q.pdf",
+        "page": "1"
+      },
+      {
+        "pdf": "Fujitsu-IFRS-FY2024-3Q.pdf",
+        "page": "7"
+      }
+    ],
+    "correct_references": [
+      {
+        "pdf": "Fujitsu-IFRS-FY2024-3Q.pdf",
+        "page": "1"
+      }
+    ],
+    "success": true
+  }
+]

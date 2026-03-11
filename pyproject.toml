@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Fujitsu RAG Hard Benchmark"
+version = "1.0.0"
+description = "Dependencies for evaluate/evaluate_qa.py"
+authors = ["Kenichirou Narita, Siqi Peng, Taku Fukui, Moyuru Yamada, Satoshi Munakata, Satoru Takahashi"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+tqdm = "^4.67.1"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

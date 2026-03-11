@@ -1,0 +1,8219 @@
+tasks:
+- no.: '1'
+  question: HACCPに沿った衛生管理を実施していれば、海外へ輸出することができますか？
+  answer: HACCPに基づく衛生管理に加え、輸入国が求める施設基準や追加的な要件（微生物検査や残留動物薬モニタリングの実施等）に合致する必要があります。
+  question_type: Yes/No
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: 記載通りに回答
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPに沿った衛生管理の制度化.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 30.82
+        left: 0.25
+        width: 22.75
+        height: 32.57
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '2'
+  question: 豆腐製造における衛生管理計画の例について、重要管理点と、各重要管理点に対する管理基準を教えてください。また、重要管理点と管理基準の用語の意味を教えてください。
+  answer: 重要管理点は３つあり、(1)大豆の煮沸温度・時間　(2)充填豆腐の加熱、殺菌温度・時間　(3)販売ケース、冷蔵庫、チラー水の温度確認です。それぞれの管理基準は、(1)沸騰状態で2分以上または同等以上の煮沸　(2)90℃、40分以上か同等以上の効力を持つ方法で　(3)温度計で10℃以下です。重要管理点とは、危害要因の発生の防止、排除又は許容できる水準にまで低減するために管理措置を講ずることが不可欠な工程です。管理基準とは、個々の重要管理点において、危害要因の発生の防止、排除又は許容できる水準にまで低減するための基準です。
+  question_type: Definition/Description
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 表の読み取り、記載通りに回答
+  tag: 表、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPに沿った衛生管理の制度化.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 17.54
+        left: 3.6
+        width: 93.32
+        height: 21.29
+    - number: 12
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 10.06
+        left: 48.73
+        width: 50.66
+        height: 40.15
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '3'
+  question: 日本は世界で何番目にHACCPに基づいた衛生管理を取り入れましたか？また日本より早く取り入れた国はどこですか？
+  answer: 日本は世界で３番目にHACCPに基づいた衛生管理を取り入れました。アメリカとニュージーランドでは日本よりも早くHACCPが取り入れられました。
+  question_type: Factoid
+  retrieval_level: Easy
+  answer_level: Hard
+  answer_skill: 表の読み取り
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCP入門のための手引書.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 36.64
+        left: 4.56
+        width: 75.08
+        height: 17.78
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '4'
+  question: オーストラリアでは、HACCPはどの分野に最初に導入されましたか？
+  answer: オーストラリアでは、と畜場にHACCPが最初に導入されました。
+  question_type: Factoid
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 表の読み取り
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCP入門のための手引書.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 36.53
+        left: 4.57
+        width: 6.63
+        height: 31.65
+      - top: 36.44
+        left: 52.13
+        width: 14.28
+        height: 31.82
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '5'
+  question: 乳・乳製品のHACCP導入手順の実践資料において、製造工程図に清潔区や汚染区などの区分け線を引く例がありますが、この例で清潔区域に分類される工程は何ですか？
+  answer: 接種と充填です。
+  question_type: Enumeration
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: 図の読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCP入門のための手引書.pdf
+    pages:
+    - number: 32
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 64.41
+        left: 8.7
+        width: 29.22
+        height: 11.07
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '6'
+  question: 生乳の受入時、病原微生物が存在する可能性がありますが、なぜ重要管理点(CCP)ではないのでしょうか？
+  answer: 加熱工程など後の工程で管理することができるためです。
+  question_type: Reasoning/Causal
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 図の読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCP入門のための手引書.pdf
+    pages:
+    - number: 36
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 25.09
+        left: 28.77
+        width: 66.48
+        height: 19.56
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '7'
+  question: バニラアイスの製造工程図で、計量の次に行われる工程は何ですか？
+  answer: 加熱混合・溶解工程です。
+  question_type: Procedure/Method
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 23
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 44.52
+        left: 24.0
+        width: 63.72
+        height: 12.51
+    - number: 24
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 20.71
+        left: 24.0
+        width: 16.16
+        height: 10.26
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '8'
+  question: バニラアイスの製造工程図で、フリージングの前工程と後工程を教えてください。
+  answer: フリージングの前工程はエージング、後工程はカップ充填です。
+  question_type: Procedure/Method
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 24
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 43.39
+        left: 23.85
+        width: 16.04
+        height: 9.47
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '9'
+  question: 乳酸菌飲料の製造工程図において、どの原材料が培養工程を通りますか？
+  answer: 生乳、脱脂粉乳、乳酸菌です。
+  question_type: Procedure/Method
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 53
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 27.91
+        left: 15.99
+        width: 64.34
+        height: 38.5
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '10'
+  question: 乳酸菌飲料の製造工程図において、生乳・乳酸菌・砂糖・ぶどう糖果糖液糖のうち、どの原材料が発酵工程を通りますか？
+  answer: 生乳・乳酸菌・砂糖です。
+  question_type: Procedure/Method
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 53
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 27.48
+        left: 15.82
+        width: 64.78
+        height: 48.67
+    - number: 54
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 18.99
+        left: 11.23
+        width: 73.16
+        height: 30.26
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '11'
+  question: 乳酸菌飲料の製造工程について、ぶどう糖果糖液糖と脱脂粉乳を混合してから、ろ過・加熱殺菌を行いました。この手順は合っていますか？
+  answer: 間違えています。ぶどう糖果糖液糖は水と混合し、ろ過・加熱殺菌を行います。
+  question_type: Verification, Procedure/Method
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 根拠の特定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 55
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 24.85
+        left: 37.71
+        width: 36.17
+        height: 28.14
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '12'
+  question: 乳飲料コーヒーについて、加熱殺菌や生乳受入以外の工程がCCPに含まれていますか？含まれている場合、その工程名と、その工程で何をモニタリングすべきかについても教えてください。
+  answer: 加熱殺菌や生乳受入以外に、洗びんの工程がCCPに含まれています。洗びん工程では洗剤濃度、洗剤温度、有効塩素濃度をモニタリングします。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 複数データからの回答
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: HACCPモデル例.pdf
+    pages:
+    - number: 71
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 42.51
+        left: 8.31
+        width: 5.98
+        height: 2.03
+      - top: 55.57
+        left: 19.29
+        width: 66.09
+        height: 3.08
+    - number: 72
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 38.36
+        left: 8.27
+        width: 79.21
+        height: 3.42
+    - number: 73
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 52.51
+        left: 8.13
+        width: 79.82
+        height: 3.75
+    - number: 75
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 40.41
+        left: 11.78
+        width: 61.15
+        height: 4.09
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '13'
+  question: 違法・有害情報に関する投稿の目撃経験のうち、３番目に「見たことがある」の割合が多い投稿は何ですか？また、１番目のものは、３番目のものより何パーセント「見たことがある」の割合が高いですか？
+  answer: ３番目に割合が多いものは、「他人の顔写真や名前を許可なく使用した投稿」です。１番目のものは、３番目のものより19.5%見たことがある割合が高いです。
+  question_type: Comparison, Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 比較、計算
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n1230000.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.0
+        left: 10.17
+        width: 78.46
+        height: 29.82
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '14'
+  question: 航空通信と衛星通信では、①電波の伝わり方、②伝送できる情報量、③利用技術の難易度はどのように違いますか？
+  answer: '①電波の伝わり方は、航空通信では、障害物の後ろに回り込むことができ、衛星通信では、直進性が強い。
+
+    ②伝送できる情報量は衛星通信のほうが大きい。
+
+    ③利用技術の難易度は、衛星通信のほうが難しい。'
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 図の読み取り、比較
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n2140000.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 26.53
+        left: 11.49
+        width: 72.55
+        height: 12.72
+      - top: 47.51
+        left: 14.23
+        width: 24.25
+        height: 6.91
+      - top: 44.89
+        left: 64.55
+        width: 12.51
+        height: 3.98
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '15'
+  question: 無線LANではなぜ10mより長い波長の電波を使うのですか？
+  answer: 無線LANでは10mより短い波長の電波を使用します。
+  question_type: Verification
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n2140000.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 33.09
+        left: 48.84
+        width: 34.05
+        height: 25.95
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '16'
+  question: 無線局数の推移のグラフにおいて、2013年と比較して数が減少している局を全て教えてください。
+  answer: アマチュア局
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 表の読み取り、比較
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: n2140000.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 50.85
+        left: 13.0
+        width: 70.15
+        height: 11.11
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '17'
+  question: 2012年度から2024年度までで、無線局への混信・妨害申告件数が一番低い年度はいつですか？また、申告件数より措置件数が多い年度があるのはなぜですか？
+  answer: 2018年度です。申告件数より措置件数が多い場合があるのは、措置件数は前年度までの未措置分も含めているためです。
+  question_type: Comparison, Reasoning/Causal
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 比較、推論
+  tag: 表、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: n2140000.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 79.03
+        left: 9.9
+        width: 81.02
+        height: 6.85
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 34.83
+        left: 10.52
+        width: 78.46
+        height: 8.72
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '18'
+  question: 石川県能登地方の地震におけるデジタル活用のコラムについて、記載内容の概要を教えてください。
+  answer: '1. 2024年1月に発生した石川県能登地方の地震における被災地のICT利用状況調査
+
+    2. 発災時のICTメディアの利用状況
+
+    3. 居住地域別のテレビ放送の利用割合
+
+    4. SNS上の真偽の不確かな情報による影響'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.05
+        left: 12.55
+        width: 71.57
+        height: 3.1
+      - top: 26.22
+        left: 13.61
+        width: 31.85
+        height: 2.85
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.62
+        left: 9.46
+        width: 33.61
+        height: 2.73
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 18.48
+        left: 13.61
+        width: 37.41
+        height: 3.23
+    - number: 4
+      view:
+        width: 100
+        height: 100
+      bounding_boxes: []
+    - number: 5
+      view:
+        width: 100
+        height: 100
+      bounding_boxes: []
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '19'
+  question: Instagram、家族や友人とのLINE、X、Facebookの中で、熊本地震よりも能登半島地震で利用割合が高かった手段はどれですか？
+  answer: InstagramとXです。
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: グラフの読み取り、比較
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 44.59
+        left: 15.98
+        width: 30.86
+        height: 1.98
+      - top: 48.18
+        left: 60.33
+        width: 28.83
+        height: 2.08
+      - top: 50.34
+        left: 50.26
+        width: 16.53
+        height: 18.36
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '20'
+  question: 能登半島地震の発災時、熊本地震よりもテレビ放送の利用割合が高かった理由、一方で一部地域で利用割合が顕著に低かった理由、今回の災害で分かったテレビ放送の課題を教えてください。また、この課題の解決に取り組む場合、総務省の補助はもらえますか？
+  answer: '能登半島地震の発災時に熊本地震よりもテレビ放送の利用割合が高かったのは、熊本地震の本震発災が午前１時半頃であるのに対し、能登半島地震の発災は元日の午後4時頃であり、能登半島地震では発災直前にテレビを見ていた、または直後にテレビをつけることができた人が熊本地震より比率が高かった可能性がある。
+
+    一部地域で利用割合が顕著に低かったのは、被害が大きかった地域では、発災時にテレビ放送を利用できない被災者が多くいたためと考えられる。
+
+    能登半島地震では、テレビ放送に関して、停電や伝送路の断線等による停波が発生した。災害時に充実した情報を被災者に確実に届けるため、様々な情報伝達手段を通じた災害情報の提供を促進するとともに、より一層、放送ネットワークの強靱化に取り組む必要がある。
+
+    総務省の補助については、地方公共団体等であれば1/2、地上基幹放送事業者等であれば1/3の補助率で支援を受けることができます。'
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 複数データからの推論、複数ファイルの参照
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 31.94
+        left: 13.26
+        width: 78.06
+        height: 8.39
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 19.0
+        left: 9.04
+        width: 77.77
+        height: 4.35
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.37
+        left: 13.47
+        width: 77.63
+        height: 6.42
+  - file_name: n2240000.pdf
+    pages:
+    - number: 8
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.18
+        left: 10.61
+        width: 77.93
+        height: 22.64
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: true
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: true
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '21'
+  question: 能登半島地震で、地域Aに居住する人は、地域Bに居住する人と比較して、テレビ放送を「発災前に有用と考えていた割合」と「発災時に利用した割合」の差が大きかったことが分かりました。この原因は、地域Aは地域Bよりもサンプル数が少なかったからだと思うのですが、合っていますでしょうか？
+  answer: 主な原因は、地域Aでは地震による被害が特に大きく、発災時にテレビ放送を利用できない被災者が多くいたためと考えられます。
+  question_type: Verification
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 根拠の特定
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.81
+        left: 8.9
+        width: 77.85
+        height: 17.64
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '22'
+  question: 能登半島地震に関する真偽の不確かな情報に対する認知・拡散の図表4において、一時滞在者は、被災地対象調査と全国対象調査のどちらに含まれていますか？
+  answer: 全国対象調査に含まれています。
+  question_type: Reasoning/Causal
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: 複数データからの推論
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 40.66
+        left: 14.09
+        width: 37.63
+        height: 17.34
+    - number: 4
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 18.33
+        left: 9.78
+        width: 75.89
+        height: 7.45
+      - top: 33.7
+        left: 33.26
+        width: 33.84
+        height: 2.91
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '23'
+  question: 被災地対象調査において、真偽の不確かな情報をSNSで拡散したと回答した人は何人ですか？
+  answer: 71人です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: グラフの読み取り、計算
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 40.66
+        left: 13.82
+        width: 37.63
+        height: 4.34
+      - top: 52.42
+        left: 41.44
+        width: 7.72
+        height: 5.39
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '24'
+  question: 被災地対象調査で真偽の不確かな情報をSNS上で見かけたと回答した人が、全国対象調査で真偽の不確かな情報をSNS上で見かけたと回答した人よりも多い原因を教えてください。
+  answer: 被災地対象調査では401人、全国対象調査では792人のため、全国対象調査で真偽の不確かな情報をSNS上で見かけたと回答した人のほうが多いです。
+  question_type: Verification
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21b000c.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 40.72
+        left: 13.91
+        width: 62.52
+        height: 4.03
+      - top: 48.69
+        left: 30.36
+        width: 8.16
+        height: 9.37
+      - top: 49.0
+        left: 68.01
+        width: 7.98
+        height: 8.94
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '25'
+  question: 2019年度から2024年度において、日本郵便の郵便物流事業の営業損益、引受荷物数、ゆうちょ銀行の預貯金残高は、それぞれ何年度が最も数値が低いですか？
+  answer: 日本郵便の郵便物流事業の営業損益と引受荷物数は2023年度が最も低く、ゆうちょ銀行の預貯金残高は2019年が最も低いです。
+  question_type: Comparison, Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 表の読み取り、グラフの読み取り、比較
+  tag: 表、図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21c0000.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 20.57
+        left: 10.48
+        width: 79.67
+        height: 7.45
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 22.63
+        left: 9.86
+        width: 31.2
+        height: 4.21
+      - top: 27.54
+        left: 44.52
+        width: 43.43
+        height: 8.75
+    - number: 4
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.02
+        left: 10.3
+        width: 35.6
+        height: 4.34
+      - top: 9.07
+        left: 55.25
+        width: 31.82
+        height: 23.93
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '26'
+  question: 日本郵便の引受荷物数が年々減少している理由を教えてください。
+  answer: 日本郵便の引受荷物数は、2014年から2024年の期間にて概ね横ばいで減少はしていません。
+  question_type: Verification
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: n21c0000.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 22.6
+        left: 9.71
+        width: 79.9
+        height: 13.58
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '27'
+  question: 電気通信事業政策の接続ルールなどの整備に関して、何が見直されましたか？内容を簡単にまとめてください。
+  answer: '音声通信における状況変化を踏まえた見直しとして、固定電話網のIP網への移行後、メタルIP電話、ワイヤレス固定電話及びひかり電話を同一の接続料とし、接続料の算定方法を規定するなどの制度整備を行った。
+
+    モバイル接続料等の算定方法の見直しとして、MNO各社の2023年度接続会計において、音声通信に関する接続料とデータ通信に関する接続料の双方を算定する際の考え方（費用・資産の配賦基準）の見直しが行われた。
+
+    卸電気通信役務に係る制度の見直しとして、卸元事業者の交渉上の優位性等を是正するため、電気通信事業法の一部を改正する法律（令和4年法律第70号）により、そのうち事業者間の適正な競争関係に及ぼす影響が少なくないものの役務提供義務や協議における情報提示義務が課されることとなった。'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: n2220000.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 37.09
+        left: 7.47
+        width: 84.71
+        height: 52.69
+    - number: 4
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 4.39
+        left: 8.93
+        width: 82.58
+        height: 21.58
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: true
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '28'
+  question: 平成24年から令和5年までの間で、熱中症による負傷者が一番少ないのは何年ですか？その年の負傷者は何人ですか？
+  answer: 負傷者が一番少ないのは平成26年で、411人です。
+  question_type: Comparison, Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Hard
+  answer_skill: 比較、推論
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 職場における熱中症対策の強化について.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 4.95
+        left: 12.62
+        width: 77.16
+        height: 29.97
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '29'
+  question: 令和に入ってから、6月から8月の気温偏差が1を超えているのは何年ですか？
+  answer: 令和4年と令和5年です。
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: グラフの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 職場における熱中症対策の強化について.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 32.66
+        left: 16.08
+        width: 72.57
+        height: 13.58
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '30'
+  question: 熱中症志望災害(R2-R5)の分析結果に関して、発見の遅れと異常時の対応の不備の両方に当てはまったのは何件ですか？
+  answer: 19件です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 集合の計算
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 職場における熱中症対策の強化について.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 55.07
+        left: 54.02
+        width: 41.12
+        height: 41.29
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '31'
+  question: 熱中症の症状のある人を発見し、声をかけました。意識はあり、自力で水分摂取もできそうです。どのように対応したらいいですか？また、気をつけるポイントがあれば教えてください。
+  answer: 身体を冷却し、水分を摂取させてください。経過観察し、回復しない場合は医療機関へ搬送してください。注意点として、医療機関までの搬送の間や経過観察中は一人にしないようにしてください。
+  question_type: Procedure/Method
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 職場における熱中症対策の強化について.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.03
+        left: 7.8
+        width: 86.44
+        height: 91.1
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '32'
+  question: 指定暑熱避難施設の運営に関して、世田谷区では、通常の開館・営業時間と同様の範囲で運営することで運営の負担を減らし、地域全体で幅広い時間帯をカバーしています。資料に例示されている中で、木曜日の15時は、どの施設が利用できますか？
+  answer: 世田谷区役所、世田谷区保健医療福祉総合プラザ、若林まちづくりセンター、経堂さわやか接骨院
+  question_type: Enumeration
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 表の読み取り
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: 指定暑熱避難施設の運営に関する事例.pdf
+    pages:
+    - number: 19
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 26.27
+        left: 2.0
+        width: 96.02
+        height: 58.94
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '33'
+  question: 世田谷地域の熱中症予防のためのお休み処は、調剤薬局と高齢者施設ではどちらの方が多いですか？
+  answer: 調剤薬局のほうが多いです。
+  question_type: Quantitative / Calculation, Comparison
+  retrieval_level: Easy
+  answer_level: Hard
+  answer_skill: 図の読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 指定暑熱避難施設の運営に関する事例.pdf
+    pages:
+    - number: 44
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 26.19
+        left: 0.27
+        width: 49.67
+        height: 59.73
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '34'
+  question: 全国の熱中症による救急搬送状況について、2025年7月14日~7月20日と2025年8月11日~8月17日では、どちらの方が初診時の重症者の割合が高いですか？
+  answer: 2025年7月14日~7月20日は1.5%、2025年8月11日~8月17日は1.8%であり、2025年8月11日~8月17日のほうが高いです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: heatstroke_sokuhouti_20250714.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 78.37
+        left: 5.87
+        width: 17.76
+        height: 13.65
+      - top: 9.41
+        left: 5.59
+        width: 18.44
+        height: 35.34
+  - file_name: heatstroke_sokuhouti_20250811.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 78.05
+        left: 5.7
+        width: 18.04
+        height: 14.12
+      - top: 9.25
+        left: 5.75
+        width: 18.16
+        height: 35.5
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '35'
+  question: 全国の熱中症による救急搬送状況について、2025年8月11日~8月17日のほうが2025年7月14日~7月20日と比較して発生場所が住居である割合が高いのは、お盆休みが理由だと思うのですが、合っていますか？
+  answer: 2025年8月11日~8月17日よりも2025年7月14日~7月20日のほうが、住居の割合が高いです。
+  question_type: Verification
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 表、図
+  grading_criteria: ''
+  rationales:
+  - file_name: heatstroke_sokuhouti_20250714.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 8.06
+        left: 5.42
+        width: 9.93
+        height: 25.44
+      - top: 7.98
+        left: 63.29
+        width: 31.08
+        height: 25.76
+  - file_name: heatstroke_sokuhouti_20250811.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 8.06
+        left: 5.59
+        width: 9.82
+        height: 25.44
+      - top: 8.14
+        left: 63.29
+        width: 31.14
+        height: 25.68
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: no-evidence
+- no.: '36'
+  question: 2025年8月11日~8月17日において、熱中症による救急搬送が最も多かった年齢区分を教えてください。また、その年齢区分の方の体内水分量はどれくらいですか？その数値が成人と比較して多いか少ないかも教えてください。
+  answer: 最も熱中症の救急搬送が多かったのは高齢者です。高齢者の体内水分量は50%であり、成人と比較して10%程少ないです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 複数データからの回答、複数ファイルの参照、比較
+  tag: 表、図
+  grading_criteria: ''
+  rationales:
+  - file_name: heatstroke_sokuhouti_20250811.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 49.23
+        left: 5.59
+        width: 18.21
+        height: 43.1
+  - file_name: heatillness_leaflet_senior_2022.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 4.1
+        left: 60.79
+        width: 34.97
+        height: 20.75
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '37'
+  question: 2025年5月と6月で、熱中症救急搬送の多い都道府県トップ3は異なりますか？
+  answer: 異なります。5月は1番目が愛知県、2番目が東京都、3番目が埼玉県ですが、6月は1番目が東京都、2番目が大阪府、3番目が愛知県です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: heatstroke_geppou_202505.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.92
+        left: 2.34
+        width: 91.87
+        height: 80.87
+  - file_name: heatstroke_geppou_202506.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.0
+        left: 3.01
+        width: 91.09
+        height: 81.03
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '38'
+  question: 学校基本調査の調査票の収集系統について、都内の市立中学校の場合はどうなりますか？最終的に文部科学大臣に届くまでの経路を記載してください。
+  answer: 市立中学校の長⇒市の教育委員会⇒市長⇒東京都知事⇒文部科学大臣
+  question_type: Procedure/Method
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: フローチャートの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 8
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.38
+        left: 9.94
+        width: 55.85
+        height: 53.8
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: true
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '39'
+  question: 東京都において、令和６年度の教員１人あたりの生徒数が一番少ない学校種は何ですか？その学校種の教員１人あたりの生徒数も教えてください。
+  answer: 特別支援学校で、教員１人あたりの生徒数は2.24人です。
+  question_type: Quantitative / Calculation, Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 計算、比較
+  tag: テキスト、表
+  grading_criteria: ''
+  rationales:
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 34.03
+        left: 13.19
+        width: 80.17
+        height: 6.29
+      - top: 44.95
+        left: 13.19
+        width: 79.72
+        height: 6.22
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '40'
+  question: 東京都において、令和６年度の教員１人あたりの生徒数は、中学校が小学校の約2倍と聞いたのですが、本当でしょうか？
+  answer: 違います。小学校では教員１人あたりの生徒数は、16.8人で、中学校では15.2人なので、2倍ではありません。
+  question_type: Verification
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 根拠の特定
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 34.11
+        left: 12.97
+        width: 79.94
+        height: 4.39
+      - top: 44.87
+        left: 13.31
+        width: 79.38
+        height: 4.55
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '41'
+  question: 私は、幼稚園の園児数と幼保連携型認定こども園の園児数は、年ごとに似た増減傾向があると見込んで、都内の未就学児向けサービスのマーケ計画を立てています。この認識は合っていますか？根拠や市場動向も含めて教えてください。
+  answer: 東京都の令和６年度学校基本統計によると、都内の令和元年度から6年度までの幼稚園の園児数は減少を続けている一方で、幼保連携型認定こども園では園児数が年々増加しています。そのため、両者の園児数に似た増減傾向があるとは言えません。
+  question_type: Verification
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 根拠の特定
+  tag: テキスト、表
+  grading_criteria: ''
+  rationales:
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 10
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.87
+        left: 8.71
+        width: 14.17
+        height: 3.68
+      - top: 59.05
+        left: 14.2
+        width: 67.51
+        height: 7.64
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 39.96
+        left: 9.16
+        width: 31.65
+        height: 3.13
+    - number: 12
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.31
+        left: 11.51
+        width: 68.52
+        height: 7.64
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '42'
+  question: 東京都の現在（令和６年度）の小学校の児童数は令和元年度と比較して増加しているのに、中学校では令和元年度と比較して児童数が減少しているのは何故ですか？
+  answer: 東京都では、中学校も令和６年度のほうが児童数は増加しています。
+  question_type: Verification
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 12
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 61.82
+        left: 8.49
+        width: 13.95
+        height: 3.68
+    - number: 13
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 20.8
+        left: 13.42
+        width: 68.74
+        height: 8.43
+      - top: 72.98
+        left: 8.82
+        width: 13.95
+        height: 3.21
+    - number: 14
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 44.72
+        left: 12.75
+        width: 68.4
+        height: 8.04
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '43'
+  question: 令和６年度において、東京都と大阪府ではどちらのほうが幼保連携型認定こども園の数が多いですか？
+  answer: 大阪府の方が多いです。令和6年度の園数は、大阪府が432園、東京都が61園です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: テキスト、表
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 12.65
+        left: 50.36
+        width: 35.89
+        height: 17.62
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 57.78
+        left: 8.94
+        width: 35.13
+        height: 9.62
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '44'
+  question: 令和6年度の高等学校卒業者の大学等進学率は、東京都と大阪府ではどちらのほうが高いですか？
+  answer: 東京都は74.2%、大阪府は68.9%のため、東京都のほうが高いです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 14
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 55.96
+        left: 8.93
+        width: 36.45
+        height: 27.12
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 27
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 66.89
+        left: 13.42
+        width: 73.11
+        height: 27.59
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '45'
+  question: 令和6年度の専修学校生徒数の分野別構成比について、東京都と大阪府では、構成比の1位から3位は同じですか？
+  answer: 異なります。東京都では、文化教養関係、工業関係、医療関係の順番に多く、大阪府では、文化教養関係、医療関係、工業関係の順番です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 7.11
+        left: 8.37
+        width: 16.4
+        height: 3.37
+      - top: 56.27
+        left: 7.7
+        width: 79.0
+        height: 28.7
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 29
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 21.12
+        left: 10.5
+        width: 81.74
+        height: 12.87
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '46'
+  question: 令和6年度の専修学校生徒数の分野別構成比について、東京都と大阪府のそれぞれで、全国と比較して10ポイント以上上回っている、あるいは下回っている分野はありますか？
+  answer: 東京都では、医療関係が全国よりも11.0ポイント下回っています。大阪府では、全国と10ポイント以上の差がある分野はありません。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 7.19
+        left: 8.82
+        width: 15.96
+        height: 3.52
+      - top: 56.35
+        left: 8.26
+        width: 78.44
+        height: 32.58
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 29
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 12.17
+        left: 10.73
+        width: 81.96
+        height: 28.46
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '47'
+  question: 令和6年度の小学校の生徒数について、大阪府では減少しているのに東京都では大増加している理由を考察してください。
+  answer: 東京都でも減少しています。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 35.77
+        left: 8.71
+        width: 66.68
+        height: 8.83
+      - top: 76.86
+        left: 8.93
+        width: 79.22
+        height: 2.65
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 54.93
+        left: 8.6
+        width: 82.97
+        height: 14.45
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '48'
+  question: 令和６年度において、幼稚園は全国に何園ありますか？上位５つの都道府県で、全国の園数の何パーセントを占めていますか？
+  answer: 令和６年度時点で、全国に8,530園あります。上位５つの都道府県で35%を占めています。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 表の読み取り、計算
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 12.57
+        left: 13.52
+        width: 35.66
+        height: 17.3
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '49'
+  question: 東京都の小学校児童数のピークと大阪の小学校児童数のピークは同じ年度ですか？また、そのピークの理由を教えてください。
+  answer: '異なります。東京都では昭和54年度、大阪では昭和55年度です。
+
+    ピークの理由は第二次ベビーブームです。'
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 41.79
+        left: 6.24
+        width: 53.36
+        height: 31.87
+      - top: 77.18
+        left: 9.04
+        width: 79.45
+        height: 2.41
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 26
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 58.1
+        left: 11.51
+        width: 79.61
+        height: 4.79
+      - top: 66.65
+        left: 12.97
+        width: 72.33
+        height: 9.3
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: true
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '50'
+  question: 東京都では第一次ベビーブームのほうが小学校児童数が多いのに対して、大阪では第二次ベビーブームのほうが多い理由を教えてください。
+  answer: 東京都でも第二次ベビーブームのほうが児童数が多いです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 根拠の特定、偽情報判定
+  tag: 図、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 6
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 41.79
+        left: 6.91
+        width: 52.91
+        height: 17.7
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 26
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 52.08
+        left: 11.06
+        width: 80.95
+        height: 10.81
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '51'
+  question: 大阪府では、第二次ベビーブームのときの小学校児童が非常に多いので、その頃の教員１人あたりの在学者数が最も多くなっていたのではないかと仮定しています。この予想は合っていますでしょうか？
+  answer: いいえ、教員１人あたりの在学者数は年々減少しており、第二次ベビーブーム以前のほうが、教員１人あたりの在学者数は多いです。
+  question_type: Verification
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 根拠の特定
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 50.42
+        left: 10.05
+        width: 82.13
+        height: 34.01
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '52'
+  question: 令和６年度の大阪府において、幼稚園、小学校、中学校、高等学校の教員の中で、女性の方が多いものを全て教えてください。
+  answer: 幼稚園と小学校です。
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 比較
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.3
+        left: 8.37
+        width: 83.03
+        height: 44.14
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '53'
+  question: 令和６年度の東京都と大阪府において、中学校の総数に対する私立中学校の割合はどちらが多いですか？
+  answer: 東京都は私立が23.4%、大阪府では、11.5%のため、東京都のほうが多いです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 1_report.pdf
+    pages:
+    - number: 24
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.55
+        left: 11.06
+        width: 26.15
+        height: 28.15
+  - file_name: 学校基本統計.pdf
+    pages:
+    - number: 13
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 73.38
+        left: 8.94
+        width: 13.39
+        height: 2.81
+    - number: 14
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.39
+        left: 13.08
+        width: 68.52
+        height: 20.86
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '54'
+  question: 要件定義ガイドの中で経営層が主な想定読者である章はどれですか？
+  answer: 第１章の背景と第２章の問題認識です。
+  question_type: Definition/Description
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: 表の読み取り
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 24
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 17.64
+        left: 14.53
+        width: 13.27
+        height: 29.49
+      - top: 14.94
+        left: 56.07
+        width: 28.95
+        height: 34.32
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '55'
+  question: 既にレガシーシステムはないと回答した割合が最も低い業界と、依然としてほとんどがレガシーシステムであると回答した割合が最も高い業界は同じですか？
+  answer: いいえ、異なります。既にレガシーシステムはないと回答した割合が最も低いのは、機械器具製造業界ですが、ほとんどがレガシーシステムである割合が最も高いのは、金融業界です。
+  question_type: Yes/No, Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: グラフの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 30
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 23.08
+        left: 14.35
+        width: 72.01
+        height: 26.79
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '56'
+  question: システム開発の工期遅延理由の分析データ（図1.7）について、要求仕様の決定漏れを原因に挙げているプロジェクトは何パーセントですか？
+  answer: 要求仕様の決定漏れを原因に挙げているプロジェクトは44.1%です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Hard
+  answer_skill: グラフの読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 34
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 16.05
+        left: 12.74
+        width: 73.18
+        height: 27.99
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '57'
+  question: 要件定義に求められる３つのことを教えてください。
+  answer: '１：経営や業務に貢献する要求を見極める
+
+    ２：要求を実現する新しい業務を作り上げる
+
+    ３：要求仕様を「抜け」「漏れ」「あいまい」なくシステム開発につなげる'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 46
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 74.25
+        left: 12.51
+        width: 74.18
+        height: 15.32
+    - number: 47
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 13.6
+        left: 13.3
+        width: 73.62
+        height: 26.25
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '58'
+  question: 既存システムの再構築を行うには、現行業務やシステムの理解が必須ですが、その全体像を可視化するのに有効な方法を教えてください。
+  answer: '・システム間関連図
+
+    ・システム構成図
+
+    ・概念データモデル
+
+    ・画面遷移図
+
+    ・業務スケジュール'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 103
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 64.83
+        left: 15.09
+        width: 72.62
+        height: 24.43
+    - number: 104
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.06
+        left: 17.44
+        width: 69.48
+        height: 20.07
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '59'
+  question: アイデア発想の方法として提案されているものを全て教えてください。
+  answer: ブレインストーミング、ゼロベース思考、共創、SCAMPER法、PoC、デザイン思考/人間中心設計
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 127
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 14.39
+        left: 36.36
+        width: 29.62
+        height: 2.65
+      - top: 34.03
+        left: 17.55
+        width: 23.91
+        height: 2.73
+      - top: 53.42
+        left: 17.44
+        width: 23.23
+        height: 2.34
+      - top: 74.64
+        left: 17.66
+        width: 10.47
+        height: 2.49
+    - number: 128
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 13.68
+        left: 17.55
+        width: 19.32
+        height: 2.41
+      - top: 34.98
+        left: 17.33
+        width: 25.14
+        height: 2.73
+      - top: 45.82
+        left: 17.78
+        width: 28.05
+        height: 2.41
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '60'
+  question: 要件定義に関して、ビジネス要求の獲得のために必要な現状把握を実施するための勘どころを全て教えてください。
+  answer: 'まず、現状把握のために、業務・システムの状況をさまざまな方法を活用して把握する必要があります。その際に以下の５点を押さえる必要があります。
+
+    勘どころ① 現行システムから可視化する
+
+    勘どころ② 全体像を可視化する
+
+    勘どころ③ 現行業務を再学習する
+
+    勘どころ④ 埋もれている既存資料を発掘する
+
+    勘どころ⑤ 実態と照らし合わせて確認する
+
+    また、現状業務・システムを理解・共有する必要もあります。その際には以下の２点を押さえる必要があります。
+
+    勘どころ① プロジェクト全員での共通認識プロセスを実施する
+
+    勘どころ② 業務運用時の人材の育成を要件定義から始める'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 102
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 12.89
+        left: 13.18
+        width: 50.56
+        height: 9.62
+    - number: 103
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 30.62
+        left: 15.2
+        width: 38.46
+        height: 2.97
+      - top: 64.91
+        left: 15.2
+        width: 30.63
+        height: 2.65
+    - number: 104
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 32.76
+        left: 15.2
+        width: 32.86
+        height: 2.81
+      - top: 60.55
+        left: 15.2
+        width: 42.72
+        height: 2.97
+      - top: 86.12
+        left: 15.09
+        width: 40.59
+        height: 2.89
+    - number: 105
+      view:
+        width: 100
+        height: 100
+      bounding_boxes: []
+    - number: 111
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 47.88
+        left: 15.42
+        width: 58.73
+        height: 3.13
+      - top: 66.57
+        left: 15.54
+        width: 54.48
+        height: 3.29
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '61'
+  question: '既存システムの再構築が難しい原因として、当てはまらないのは、以下のどれですか？
+
+    ・経営層が既存システムの問題を経営問題として捉えていないため
+
+    ・自社の情報試算を正確に把握できていないため、どのように構築していけばいいか判断がつかないため
+
+    ・システム部門の人のみが現行仕様を理解しているため'
+  answer: 「システム部門の人のみが現行仕様を理解しているため」は当てはまりません。
+  question_type: Verification
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: 根拠の特定
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 30
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 69.34
+        left: 13.3
+        width: 73.62
+        height: 4.63
+    - number: 35
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 24.29
+        left: 13.41
+        width: 73.18
+        height: 9.22
+    - number: 42
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 21.91
+        left: 13.52
+        width: 73.96
+        height: 5.03
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '62'
+  question: 日本企業はなぜ米国に比べてIT投資に積極的ではないのですか？
+  answer: 日本企業の営業利益率は米国企業の営業利益率と比較するとおおよそ半分である。営業利益率の高い会社では、IT予算比率も高くIT投資にも積極的であるため、日本企業よりも米国企業のほうがIT投資に積極的な傾向にある。ただし、日本で導入できるハードウェアやシステムの調達価格が安価かつ高品質であることが、売上高に対してIT投資比が少ないことに結びついているとの指摘もある。
+  question_type: Reasoning/Causal
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 矛盾する記載の考慮
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 36
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 44.56
+        left: 16.77
+        width: 68.36
+        height: 4.79
+    - number: 37
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 15.89
+        left: 16.43
+        width: 68.58
+        height: 6.53
+      - top: 57.23
+        left: 16.88
+        width: 68.14
+        height: 9.22
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '63'
+  question: システム開発において、経営層や実際に使用する部門から様々な要求があり、要求に優先順位を付けるのが難しいです。特に私の職場では声の大きい人の意見が通りやすく懸念しています。解決策はありますか？
+  answer: 'Step1:総合的な評価観点を設定します。機械化や効率化だけでなく、経営や業務への貢献度やコスト、環境・社会への貢献度など多様な観点から評価が必要です。
+
+    Step2:評価観点に得点を設定します。
+
+    Step3:要求一覧に得点をマッピングして客観的な評価を行います。優先度の高低と採否区分も設けることで、実現しない判断も行います。
+
+    Step4:ステークホルダ、システム開発関係者や第三者などを集めて、上記の一覧を使用した合意形成を行います。'
+  question_type: Procedure/Method
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ユーザのための要件定義ガイド第２版２刷.pdf
+    pages:
+    - number: 156
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 27.45
+        left: 14.75
+        width: 70.82
+        height: 60.69
+    - number: 157
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 13.28
+        left: 16.54
+        width: 68.58
+        height: 67.5
+    - number: 158
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 14.23
+        left: 13.52
+        width: 72.84
+        height: 58.55
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: true
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '64'
+  question: 富士通の社長は誰ですか？
+  answer: 富士通の社長は、時田隆仁氏です。
+  question_type: Factoid
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: 記載通りに回答
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 76
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 33.0
+        left: 32.85
+        width: 15.92
+        height: 2.8
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '65'
+  question: 富士通の2025年3月期の第3四半期までの売上収益と前年比は？
+  answer: 富士通の2025年3月期の第3四半期までの売上収益は2兆6214億円で、前年比0.8%減です。
+  question_type: Factoid
+  retrieval_level: Easy
+  answer_level: Easy
+  answer_skill: 記載通りに回答
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 29.91
+        left: 9.04
+        width: 28.61
+        height: 7.4
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '66'
+  question: 富士通のFY2023の営業利益が下がった原因は何ですか？
+  answer: FY2023の営業利益は1,602億円で前期比1,753億円減となりました。この営業利益には、事業再編・事業構造改革等に伴う一過性の損失1,234億円が含まれています。この一過性の損失を控除した、本業での実質的な利益を示す調整後営業利益は2,836億円で前期比371億円減となりました。「ハードウェアソリューション」におけるネットワークプロダクトの前期の高い需要の反動減や、「デバイスソリューション」における半導体パッケージ等の物量減および操業低下が影響し、全体では前期比で減益となりました。
+  question_type: Reasoning/Causal
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 55.56
+        left: 6.94
+        width: 86.0
+        height: 13.75
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '67'
+  question: 現在の富士通の代表取締役副社長は誰ですか？
+  answer: 現在の富士通の副社長は、磯部 武司氏です。
+  question_type: Factoid
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 矛盾する記載の考慮
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 76
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 34.9
+        left: 33.13
+        width: 15.81
+        height: 2.64
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '68'
+  question: 富士通の年間配当金は2024年と2025年のどちらが高いですか？
+  answer: 2024年3月期は260円、2025年3月期(予想)は28円のため、2024年3月期のほうが高いと予想されます。
+  question_type: Comparison
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 比較
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 8.53
+        left: 8.93
+        width: 82.02
+        height: 9.46
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '69'
+  question: 2023年度において、サービスソリューションセグメントの調整後営業利益率と富士通全体の調整後営業利益率はどちらが高いですか？
+  answer: 2023年度において、サービスソリューションセグメントの調整後営業利益率は11.1%、富士通株式会社の調整後営業利益率は7.6%のため、サービスソリューションセグメントの調整後営業利益率のほうが高いです。
+  question_type: Comparison
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 比較
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.63
+        left: 6.55
+        width: 29.05
+        height: 6.94
+      - top: 15.89
+        left: 50.2
+        width: 20.97
+        height: 11.38
+    - number: 4
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 13.59
+        left: 6.79
+        width: 40.3
+        height: 8.13
+      - top: 31.96
+        left: 36.49
+        width: 8.61
+        height: 10.9
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '70'
+  question: 富士通の2020年度の売上収益と2024年度第三四半期累計の売上収益は、どちらが大きいですか？
+  answer: 2020年度の売上収益は3兆5897億円、2024年度第3四半期累計の売上収益は2兆6214億円のため、2020年度の売上収益のほうが大きいです。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 35.13
+        left: 7.66
+        width: 43.15
+        height: 8.05
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.54
+        left: 13.86
+        width: 73.85
+        height: 7.48
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '71'
+  question: 富士通の2020年度から2023年度までの年度別のフリーキャッシュフローと、2024年度第3四半期のフリーキャッシュフローを教えてください。
+  answer: 2020年度は2,363億円、2021年度は1,890億円、2022年度は1,775億円、2023年度は1,519億円です。2024年度第3四半期のフリーキャッシュフローは、-231億円です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 複数データからの推論、複数ファイルの参照
+  tag: 表、注釈
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 34.42
+        left: 7.58
+        width: 85.69
+        height: 5.91
+      - top: 82.95
+        left: 7.5
+        width: 85.45
+        height: 4.09
+      - top: 91.82
+        left: 7.74
+        width: 63.27
+        height: 2.98
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.0
+        left: 11.17
+        width: 80.12
+        height: 8.59
+      - top: 48.99
+        left: 15.09
+        width: 75.31
+        height: 2.57
+      - top: 64.11
+        left: 15.09
+        width: 75.19
+        height: 2.73
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '72'
+  question: Fujitsu Uvanceの2023年度の売上収益と2025年度の目標売上収益を教えてください。
+  answer: 2023年度の売上収益は3,679億円です。2025年度の目標売上収益は0.7兆円です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Easy
+  answer_skill: 複数ファイルの参照
+  tag: テキスト、図
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 5
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 14.15
+        left: 7.1
+        width: 86.0
+        height: 5.91
+  - file_name: target_image_ja.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 26.9
+        left: 65.24
+        width: 13.94
+        height: 26.34
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '73'
+  question: 富士通のユビキタスソリューションセグメントの子会社名とユビキタスソリューションの2024年度第３四半期累計の収益合計を教えてください。
+  answer: ユビキタスソリューションセグメントの子会社名は、（株）富士通パーソナルズです。ユビキタスソリューションの2024年度第３四半期累計の収益合計は、1,814億円です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Easy
+  answer_skill: 複数ファイルの参照
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 8
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.71
+        left: 8.77
+        width: 44.49
+        height: 3.93
+      - top: 67.67
+        left: 9.95
+        width: 16.93
+        height: 5.36
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 31.6
+        left: 11.27
+        width: 53.11
+        height: 12.67
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '74'
+  question: 富士通に関して、2020年度から2024年度までで、基本的１株当たり当期利益が最も高い年はいつですか？
+  answer: 2020年度は101.38円、2021年度は92.42円、2022年度は110.76円、2023年度は135.59円です。2024年度の予想は115.92円です。そのため、基本的１株当たり当期利益が最も高い年は2023年と予想されます。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 比較、複数ファイルの参照
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-ShareholdersMTG-FY2023.pdf
+    pages:
+    - number: 7
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 35.29
+        left: 7.58
+        width: 85.29
+        height: 4.88
+      - top: 63.0
+        left: 7.34
+        width: 84.9
+        height: 4.41
+  - file_name: Fujitsu-IFRS-FY2024-3Q.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 23.5
+        left: 8.48
+        width: 66.01
+        height: 19.2
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '75'
+  question: 富士通のサービスソリューションの調整後営業利益の2019年から2025年のCAGRをおしえてください。
+  answer: 調整後営業利益は2019年982億円、2020年1,078億円、2021年1,172億円、2022年1,629億円、2023年2,372億円、2024年2,800億円(予想)、2025年3,600億円(計画)のため、CAGRは24.2%です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 計算
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 27
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 61.82
+        left: 4.36
+        width: 59.92
+        height: 30.91
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '76'
+  question: 2024年度上期 Fujitsu Uvance の売上のうち海外での売上が占める割合を教えてください。
+  answer: 2024年度上期におけるFujitsu Uvance の売上は2,007億円で、そのうち海外拠点での売上は975億円のため、海外売上の割合は、48.6%です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 計算
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: 2024年度第2四半期決算概要.pdf
+    pages:
+    - number: 34
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 7.01
+        left: 1.66
+        width: 86.52
+        height: 21.64
+      - top: 56.84
+        left: 11.92
+        width: 41.37
+        height: 30.09
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '77'
+  question: Fujitsu UvanceのVertical areas について書かれている内容を要約してください。
+  answer: Vertical areasとは、Fujitsu Uvanceのサービスのうち、社会課題を解決する、Sustainable Manufacturing、Consumer Experience、Healthy Living、Trusted Societyの4分野のことです。Fujitsu Uvanceの中でも収益性が高い分野で、今後の成長ドライバーとなります。2025年度にVertical areasで売上総利益率40%以上をターゲットとしています。グローバルに展開する体制も整備しています。Vertical areasのオファリングのリリースを本格化した2023年度は、売上収益が前年度比84%増の3,679億円と大幅に伸長し、富士通のコア事業であるサービスソリューション事業の売上収益に占める割合も、前年度の約10%から約17%に拡大しました。2023年度下期からは、実際に価値ベースの価格設定を行いながら商品の企画・開発を進めており、同期間以降に市場に投入した約30のVertical areasのオファリングのうち、3分の2が価値ベースの価格設定を採用しています。主要オファリングとしてはDynamic SCMというサプライチェーン全体におけるデータ活用とプロセス変革を進めるSustainable Manufacturingのオファリングがあります。
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 19
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 32.69
+        left: 31.62
+        width: 22.75
+        height: 4.94
+      - top: 35.22
+        left: 75.4
+        width: 19.56
+        height: 4.86
+      - top: 80.19
+        left: 4.41
+        width: 52.77
+        height: 3.91
+      - top: 33.08
+        left: 5.67
+        width: 19.57
+        height: 3.02
+    - number: 36
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 29.68
+        left: 35.6
+        width: 29.08
+        height: 13.65
+    - number: 39
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 24.97
+        left: 66.85
+        width: 28.91
+        height: 13.4
+    - number: 40
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 19.78
+        left: 4.35
+        width: 28.63
+        height: 5.86
+      - top: 28.62
+        left: 35.2
+        width: 29.2
+        height: 14.7
+      - top: 19.7
+        left: 66.85
+        width: 28.8
+        height: 6.1
+    - number: 41
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 54.97
+        left: 4.29
+        width: 28.97
+        height: 11.53
+    - number: 42
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.26
+        left: 4.47
+        width: 27.13
+        height: 28.97
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '78'
+  question: 中期経営計画におけるFY23からFY25の売上のFujitsu Uvance とVertical それぞれのCAGRを教えてください。
+  answer: 中期経営計画におけるFY23からFY25の売上のFujitsu UvanceのCAGRは37.9%、VerticalのCAGRは85.5%です。
+  question_type: Quantitative / Calculation
+  retrieval_level: Easy
+  answer_level: Hard
+  answer_skill: 複数データからの推論、計算
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 2024年度第2四半期決算概要.pdf
+    pages:
+    - number: 10
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.49
+        left: 60.15
+        width: 11.56
+        height: 76.94
+      - top: 18.45
+        left: 85.05
+        width: 11.66
+        height: 71.14
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: coord-ref
+- no.: '79'
+  question: Fujitsu Uvanceの2022年度の売上と2023年度の売上を教えてください。
+  answer: Fujitsu Uvanceの2022年度の売上は0.2兆円、2023年度の売上は3,679億円です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 複数データからの推論、複数ファイルの参照
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 2024年度第2四半期決算概要.pdf
+    pages:
+    - number: 10
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 31.8
+        left: 62.76
+        width: 8.91
+        height: 56.38
+  - file_name: target_image_ja.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 26.64
+        left: 52.04
+        width: 27.0
+        height: 36.46
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: true
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '80'
+  question: 2023年度において、サービスソリューションのリージョンズ（海外）の欧州の売上収益と、富士通の欧州事業全体の売上収益を教えてください。また、2023年度の欧州の従業員数も教えてください。
+  answer: 2023年度におけるサービスソリューションのリージョンズ（海外）の欧州の売上収益は4,191億円、富士通の欧州事業全体の売上収益は7,023億円です。2024年3月31日時点での欧州の従業員数は2.2万人です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 複数データからの推論、複数ファイルの参照
+  tag: 表、図
+  grading_criteria: ''
+  rationales:
+  - file_name: 2024年度第2四半期決算概要.pdf
+    pages:
+    - number: 35
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.65
+        left: 6.55
+        width: 86.94
+        height: 33.66
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 5
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 20.02
+        left: 41.19
+        width: 15.7
+        height: 3.91
+      - top: 33.56
+        left: 50.09
+        width: 9.99
+        height: 10.48
+      - top: 38.31
+        left: 43.32
+        width: 5.62
+        height: 5.89
+      - top: 40.37
+        left: 71.03
+        width: 6.51
+        height: 6.05
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '81'
+  question: 富士通の大西 俊介氏の2021年と2024年の役職を教えてください。
+  answer: 2021年時点では、執行役員常務エンタープライズソリューションビジネスグループ、（兼）グローバルサービスビジネスグループであり、2024年時点では、執行役員副社長COO（リージョン）、CRO *Revenue（兼）グローバルカスタマーサクセス（兼）Japanリージョンである。
+  question_type: Enumeration
+  retrieval_level: Hard
+  answer_level: Hard
+  answer_skill: 複数ファイルの参照
+  tag: 図、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: Fujitsu-Databook-FY2020-Organization.pdf
+    pages:
+    - number: 1
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 79.2
+        left: 20.28
+        width: 50.1
+        height: 2.42
+      - top: 88.21
+        left: 21.03
+        width: 44.15
+        height: 2.5
+  - file_name: 富士通統合レポート2024.pdf
+    pages:
+    - number: 35
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 32.61
+        left: 36.1
+        width: 13.18
+        height: 15.47
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '82'
+  question: LIFEBOOK U9313/Rを使用しています。BIOSのパスワード設定をしたいのですが、&と@と#はパスワードに使えますか？
+  answer: パスワードに#は使えますが、&と@は使えません。
+  question_type: Enumeration
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 記載通りに回答
+  tag: 表、テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: B5FL1971.pdf
+    pages:
+    - number: 29
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 71.89
+        left: 16.52
+        width: 62.23
+        height: 15.54
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: false
+    Low Locality:
+      value: false
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '83'
+  question: LIFEBOOK U9313/Rでは、指紋認証機能付き電源ボタンと手のひら静脈センサーの両方を付けることはできますか？
+  answer: いいえ、指紋認証機能付き電源ボタンと手のひら静脈センサーは同時選択できません。
+  question_type: Yes/No
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: 複数ページにわたる表の読み取り
+  tag: 表、注釈
+  grading_criteria: ''
+  rationales:
+  - file_name: ctlg_lifebook_202504_3.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 58.66
+        left: 13.82
+        width: 11.06
+        height: 2.6
+      - top: 62.7
+        left: 13.73
+        width: 8.6
+        height: 2.72
+      - top: 88.51
+        left: 6.79
+        width: 28.8
+        height: 1.29
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 8.11
+        left: 40.21
+        width: 14.43
+        height: 3.1
+      - top: 58.86
+        left: 45.2
+        width: 4.9
+        height: 2.12
+      - top: 62.69
+        left: 45.49
+        width: 4.68
+        height: 2.38
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '84'
+  question: 'LIFEBOOK U9313/R（型名：FMVU81002）を購入しました。追加オプション費用込で希望小売価格（税別）は521,900円でした。動画再生時のバッテリー
+
+    駆動時間を教えてください。'
+  answer: 約12.0時間です。
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: 複数データからの推論
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: ctlg_lifebook_202504_3.pdf
+    pages:
+    - number: 2
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 76.39
+        left: 6.58
+        width: 22.12
+        height: 6.77
+    - number: 3
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 7.82
+        left: 41.63
+        width: 10.92
+        height: 3.52
+      - top: 76.39
+        left: 36.92
+        width: 20.21
+        height: 3.6
+    - number: 38
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 41.63
+        left: 47.56
+        width: 12.71
+        height: 2.89
+      - top: 38.32
+        left: 76.63
+        width: 11.41
+        height: 4.21
+      - top: 6.41
+        left: 87.27
+        width: 11.76
+        height: 11.18
+    - number: 39
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.97
+        left: 0.33
+        width: 17.44
+        height: 12.69
+      - top: 6.51
+        left: 25.7
+        width: 9.01
+        height: 8.8
+      - top: 6.72
+        left: 42.92
+        width: 8.93
+        height: 6.63
+      - top: 6.82
+        left: 51.43
+        width: 8.86
+        height: 6.06
+      - top: 6.82
+        left: 60.3
+        width: 7.83
+        height: 5.33
+      - top: 6.87
+        left: 67.92
+        width: 7.91
+        height: 5.64
+      - top: 6.87
+        left: 75.84
+        width: 7.98
+        height: 52.45
+      - top: 6.77
+        left: 83.24
+        width: 8.42
+        height: 33.01
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '85'
+  question: LIFEBOOK U9313/R（FMVU81061）を１台購入しようと考えています。最も価格が高くなるカスタムメイドで仕様の変更・追加が可能な構成パターンの組み合わせを教えてください。また、そのときの本体込みの税別希望小売価格を教えてください。
+  answer: '・メモリ変更8GB→16GB（オンボード/LPDDR5 SDRAM）:109,400円
+
+    ・SSD変更暗号化機能付フラッシュメモリ（DRAM-less SSD/PCIe NVMe）256GB→暗号化機能付フラッシュメモリ（SSD/PCIe NVMe）1TB:180,300円
+
+    ・手のひら静脈センサー（PalmSecure-Fシリーズ互換）&スマートカードスロット追加: 73,900円
+
+    ・マウス添付（レーザー式）:6,600円
+
+    ・バッテリパック変更 標準→大容量:6,400円
+
+    ・Microsoft Office Home & Business 2024追加:62,400円
+
+    ・リカバリデータディスク＋ドライバーズディスク追加:3,700円
+
+    ・プライバシーフィルター添付:17,300円
+
+    ・PC Sustainability Support Service Premium（ノートパソコン用）5年:100,000円
+
+    合計金額は1,080,700円です。'
+  question_type: Comparison, Quantitative / Calculation
+  retrieval_level: Medium
+  answer_level: Hard
+  answer_skill: 複数データからの推論、比較、計算
+  tag: 表
+  grading_criteria: ''
+  rationales:
+  - file_name: bib2504_3.pdf
+    pages:
+    - number: 14
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 16.24
+        left: 8.02
+        width: 13.43
+        height: 5.52
+      - top: 14.81
+        left: 40.92
+        width: 54.43
+        height: 28.22
+    - number: 16
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.85
+        left: 4.41
+        width: 90.67
+        height: 67.47
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: true
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '86'
+  question: 富士通の法人向けPCの製品評価試験の内容とRoHS指令対応について教えてください。
+  answer: '製品評価試験では、MIL-STD-810H試験（アメリカ国防総省が規定する米軍採用規格）に基づいて振動、落下、衝撃、粉塵、湿度、温度、高温、低温のテストを実施しています。
+
+    電気・電子機器に含まれる特定化学物質〈鉛、六価クロム、水銀、カドミウム、PBB、PBDE、フタル酸エステル類4物質（DEHP/BBP/DBP/DIBP）の10物質〉の使用を制限するEU（欧州連合）の指令である「RoHS指令」に全機種対応しています。'
+  question_type: Definition/Description
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ctlg_lifebook_202504_3.pdf
+    pages:
+    - number: 16
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 36.4
+        left: 8.82
+        width: 87.29
+        height: 56.73
+    - number: 17
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 27.93
+        left: 52.83
+        width: 39.58
+        height: 6.93
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '87'
+  question: LIFEBOOK U9313/R 標準モデル（インテル® CoreTM 5 プロセッサー 220U）の省エネ法に基づくエネルギー消費効率（2022年度基準）を教えてください。エネルギー消費効率の定義と()内のアルファベットの意味も教えてください。
+  answer: エネルギー消費効率は12区分 14.0kWh/年(AAA)です。エネルギー消費効率とは、JIS C62623（2014）に規定する方法により測定した年間消費電力量です。カッコ内の数値は省エネルギー基準達成率を示します。ただし、達成率が100％を超えるものは、次のようにアルファベットによる表示語で表記しています。A：100％以上110％未満、AA：110％以上140％未満、AAA：140％以上。
+  question_type: Definition/Description
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 注釈の読み取り
+  tag: 表、注釈
+  grading_criteria: ''
+  rationales:
+  - file_name: ctlg_lifebook_202504_3.pdf
+    pages:
+    - number: 74
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 73.11
+        left: 9.64
+        width: 31.22
+        height: 2.27
+      - top: 6.51
+        left: 24.52
+        width: 75.49
+        height: 5.54
+    - number: 84
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 33.61
+        left: 8.17
+        width: 87.14
+        height: 2.69
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: multi
+    Quantitative Operation:
+      value: true
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: true
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '88'
+  question: 手のひら静脈認証とは何か教えてください。メリットも教えてください。
+  answer: 手のひらをセンサー面にかざして非接触で静脈パターンを複数回連続撮影し最適画像で自動照合する方式で、皮膚表面の状態に左右されず、軽快で安定した認証を実現。メリットとしては、静脈は体内情報で盗まれにくいので安全性が高いこと、静脈本数が多く複雑に交差していて認証精度が高いこと、非接触で衛生的かつ手をかざすだけの簡単操作なので受容性が高いことが挙げられます。
+  question_type: Definition/Description
+  retrieval_level: Easy
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: ctlg_lifebook_202504_3.pdf
+    pages:
+    - number: 25
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.08
+        left: 3.56
+        width: 89.75
+        height: 29.33
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: summary
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: hier-ref
+- no.: '89'
+  question: LIFEBOOK U7314/Rの無線WANモデルを購入しました。SIMカードのセット方法と接続方法を教えてください。
+  answer: "セット方法：\n1. パソコン本体の電源を切ります。\n2. OFFボタンを押します。\n3. くぼみにつめの先端をかけ、カードスロットカバーを矢印の方向に開きます。\n4. nanoSIMカードをnanoSIMカードスロットに「カチッ」と音がするまで差し込みます。\n5. カードスロットカバーを閉じます。\n\n接続方法（Windows の自動設定により、特に設定しなくても接続できる場合があります。）：\n1. 「スタート」ボタン→「設定」の順にクリックします。\n2. 「ネットワークとインターネット」→「携帯電話」の順にクリックします。\n3. 「この SIM カードの携帯データネットワークを使う」のプルダウンメニューから「SIM」または、「SIM1」を選択します。 \n4. 「携帯電話会社の設定」または「詳細オプション」をクリックします。 \n5. 「携帯ネットワーク」をクリックし、電波を停止します。 \n6. 「APN を追加」または「APN を追加します」をクリックします。 \n7. 通信事業者から提供された情報を入力し、「Save」または「保存」をクリックします。\n8. Windows10 の場合は、「インターネット APN 設定が保存されました。」と表示されたら「OK」をクリックします。 \n9. 「携帯ネットワーク」をクリックして手順 5 で停止した電波を再開します。 "
+  question_type: Complex reasoning/Multi-hop
+  retrieval_level: Hard
+  answer_level: Medium
+  answer_skill: 複数ファイルの参照
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: B5FL1891.pdf
+    pages:
+    - number: 98
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.69
+        left: 4.17
+        width: 89.88
+        height: 67.64
+  - file_name: B5FL0331.pdf
+    pages:
+    - number: 13
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 2.13
+        left: 4.4
+        width: 90.78
+        height: 64.83
+    - number: 14
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.63
+        left: 8.97
+        width: 84.44
+        height: 81.09
+    - number: 15
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.36
+        left: 9.99
+        width: 64.01
+        height: 64.29
+    - number: 16
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.63
+        left: 9.99
+        width: 85.2
+        height: 84.77
+    - number: 17
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.81
+        left: 9.48
+        width: 85.2
+        height: 62.04
+    - number: 18
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.9
+        left: 13.54
+        width: 81.78
+        height: 56.2
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: true
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: true
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: true
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: false
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '90'
+  question: LIFEBOOK U7314/Rの無線WANモデルのeSIM接続方法とEIDの確認方法を教えてください。
+  answer: "接続方法：\n1. 「スタート」ボタン→「設定」の順にクリックします。\n2. 「ネットワークとインターネット」→「携帯電話」の順にクリックします。\n3. 「この SIM カードの携帯データネットワークを使う」のプルダウンメニューから「eSIM」または、「SIM2」を選択します。  \n4. Wi-Fi ネットワークに接続します。\n5. 「eSIM プロファイル」または「eSIM プロファイルの管理」をクリックします。 \n6. 「通信事業者の eSIM プロファイルを追加」から「プロファイルの追加」をクリックします。 \n7.「携帯電話会社から提供されたアクティブ化コードを入力する」を選択して「次へ」をクリックします。 \n8. 「携帯電話会社から提供されたアクティブ化コードを入力する」を選択した場合は、カメラが起動し、QR コードのスキャン画面が表示されます。QR コードを入手している場合は、QR コードをスキャンしてください。そうでない場合は、アクティブ化コードを入力して「次へ」をクリックします。 \n9. eSIM プロファイルがダウンロードされ利用可能になります。 \n10. 追加された eSIM プロファイルをクリックします。\n11. ダウンロードで読み込まれたプロファイル選択し、「使用」をクリックします。 \n12. 「はい」をクリックするとプロファイルがアクティブとなり、eSIM の使用準備が完了します。\n13. プロファイルがアクティブとなり、eSIM の使用準備が完了後、「モバイルブロードバンドデバイスの設定」が開始されます。\n14. 次にプロファイルの設定を行うことで接続できます。\n\nEID確認方法：\n1. 「スタート」ボタン→「設定」の順にクリックします。\n2. 「ネットワークとインターネット」→「携帯電話」の順にクリックします。\n3. 「この SIM カードの携帯データネットワークを使う」のプルダウンメニューから「eSIM」または、「SIM2」を選択します。  \n4. 「eSIM プロファイル」または「eSIM プロファイルの管理」をクリックします。 \n5. 「eSIM のプロパティ」に表示されている EID を確認します。 "
+  question_type: Procedure/Method
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 記載通りに回答
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: B5FL0331.pdf
+    pages:
+    - number: 19
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.33
+        left: 4.99
+        width: 89.49
+        height: 72.93
+    - number: 20
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 6.12
+        left: 10.16
+        width: 83.91
+        height: 54.89
+    - number: 21
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.97
+        left: 10.37
+        width: 84.21
+        height: 77.96
+    - number: 22
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 5.83
+        left: 9.55
+        width: 85.12
+        height: 40.3
+    - number: 72
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 10.51
+        left: 5.63
+        width: 87.19
+        height: 57.49
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '91'
+  question: データの共通理解を阻む要因として考えられるものを列挙してください。
+  answer: '各人が有する知識の差
+
+    データに関する説明情報の欠落
+
+    データ項目や値の表記の揺れ
+
+    コンピューター処理上の問題
+
+    事実との照合や確認が必要なデータの存在'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000096537.pdf
+    pages:
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.88
+        left: 8.03
+        width: 40.59
+        height: 3.37
+      - top: 14.71
+        left: 8.82
+        width: 23.01
+        height: 3.05
+      - top: 33.63
+        left: 8.48
+        width: 30.96
+        height: 3.21
+      - top: 47.49
+        left: 8.59
+        width: 28.83
+        height: 2.73
+    - number: 10
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 41.31
+        left: 9.04
+        width: 28.5
+        height: 2.97
+      - top: 60.08
+        left: 8.59
+        width: 39.81
+        height: 3.29
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes: []
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '92'
+  question: クラウドサービス利用者の経営層やセキュリティ管理者が組織のセキュリティ方針を定める際に、どのような手順を踏むべきかを教えてください。
+  answer: 'i. 『Ⅰ.序編』を読み、本ガイドラインの位置付け、利⽤⽅法、⽤語の定義等を確認する。
+
+    ii. 『Ⅱ.前提および概要』を読み設定不備の対策に関する内容や対策の前提となる事項を確認する。
+
+    iii. 『Ⅲ.クラウドサービス利用側に求められる対策』の各節冒頭にある【目的】の内容を把握することで、各設定不備対策の目的を知ることが出来る。'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000843318.pdf
+    pages:
+    - number: 16
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 76.54
+        left: 15.43
+        width: 71.17
+        height: 13.42
+    - number: 17
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.22
+        left: 15.65
+        width: 70.39
+        height: 5.74
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '93'
+  question: クラウドサービス利用におけるリテラシーを向上させるための具体的な方法を列挙してください。
+  answer: 'i. 製品を提供するベンダーが用意するトレーニングコース（無料のものもある）の受講を奨励する。
+
+    ii. クラウドサービス導入時に管理部門等が企画してユーザ向け説明会等を実施する。
+
+    iii. クラウド利用における基本的な理解については、「テレワークセキュリティガイドライン第５版、令和３年５月、総務省14」の「第２章 ３．クラウドサービスの活用の考え方」や関連する対策一覧を参考にすると良い。
+
+    iv. クラウドの運用における基本的な理解については、「クラウドを利用したシステム運用に関するガダンス（詳細版）」を参考にすると良い。
+
+    v. インシデント、アクシデント等が発生した場合、その内容をケーススタディとして組織内で共有し理解度向上及び再発防止に活用する。'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000843318.pdf
+    pages:
+    - number: 51
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 57.15
+        left: 13.41
+        width: 74.09
+        height: 26.09
+    - number: 52
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 10.51
+        left: 13.86
+        width: 72.29
+        height: 8.12
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '94'
+  question: システム動作環境の設定に関して、支援ツールや外部診断サービスを活用する際に考慮すべき機能や注意点を列挙してください。
+  answer: 'i. 下記のような機能を有するツールについて、ビジネス環境の要求に合わせて導入を検討する。
+
+    ・設定不備の検出
+
+    ・脅威の検出
+
+    ・ファイアウォールやセキュリティグループのルールチェック
+
+    ・ぜい弱性診断
+
+    ・監視ツール（生存監視、性能監視、ログ監視、Web監視など）
+
+    ・性能監視、ログ監視
+
+    ・構成管理、構成記述ツール
+
+    ii. ツール等の利用に当たっては、ツール過信に陥らないよう、組織としてのレビュー及び判断を行う。'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000843318.pdf
+    pages:
+    - number: 60
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 72.19
+        left: 13.19
+        width: 74.31
+        height: 17.14
+    - number: 61
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.46
+        left: 14.31
+        width: 71.4
+        height: 16.27
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '95'
+  question: クラウドサービス利用者が環境の設定を正しく行うために、どのような支援ツールが提供されるべきか、具体的な機能を挙げて説明してください。
+  answer: '利用者が設定したシステム動作環境の設定項目について、セキュリティ上の診断可能なツールを提供する。
+
+    i. 特に重要であるIDの管理（IDとアクセス管理）については診断ツールを提供することが望ましい。
+
+    ii. 設定診断を実行した後、危険な設定になっているものを自動で復元する機能を持っているツールもある。'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000843318.pdf
+    pages:
+    - number: 72
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 43.61
+        left: 11.84
+        width: 75.65
+        height: 48.65
+    - number: 73
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 10.83
+        left: 14.08
+        width: 73.64
+        height: 12.63
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '96'
+  question: 少子高齢化の進行が日本の実体経済に与える影響として考察されている３点を教えてください。
+  answer: '(1) 労働力人口の減少が経済成長の制約要因になる可能性
+
+    (2) 国の社会保障精度等への影響
+
+    (3) 内需の縮小と消費構造の変化'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 要約
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: news240340_1.pdf
+    pages:
+    - number: 11
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.96
+        left: 9.83
+        width: 37.47
+        height: 2.41
+      - top: 22.62
+        left: 11.06
+        width: 53.82
+        height: 2.81
+      - top: 45.98
+        left: 11.06
+        width: 32.09
+        height: 2.89
+    - number: 12
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 14.07
+        left: 11.17
+        width: 31.31
+        height: 2.97
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: true
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '97'
+  question: 高齢者の資産を有効活用するために考えられる金融商品やサービスの種類を挙げてください。
+  answer: "① 相続等\n② 世代を超えたローン商品 \n③ リバース・モーゲージ \n④ ファンド"
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: news240340_1.pdf
+    pages:
+    - number: 28
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 9.64
+        left: 9.38
+        width: 43.85
+        height: 2.89
+      - top: 20.49
+        left: 10.84
+        width: 11.14
+        height: 2.73
+      - top: 39.33
+        left: 11.17
+        width: 27.16
+        height: 3.21
+      - top: 54.53
+        left: 11.06
+        width: 25.59
+        height: 2.89
+    - number: 29
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 18.43
+        left: 10.61
+        width: 13.83
+        height: 2.65
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '98'
+  question: リユース部品の生産工程において、どのようなステップが含まれているかを列挙してください。
+  answer: '* 使用済自動車
+
+    * 生産検討
+
+    * 部品取り
+
+    * 洗浄
+
+    * 品質検査
+
+    * 在庫（部品登録）'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 図の読み取り
+  tag: 図
+  grading_criteria: ''
+  rationales:
+  - file_name: 000040369.pdf
+    pages:
+    - number: 8
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 54.3
+        left: 12.74
+        width: 28.61
+        height: 2.97
+    - number: 9
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 12.17
+        left: 12.74
+        width: 28.95
+        height: 37.97
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: true
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '99'
+  question: 自動車リユース部品の在庫共有システムに入力される情報として、どのような種類の情報が必要ですか？
+  answer: '(1)車輛情報
+
+    (2)外装部品
+
+    (3)機能部品'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Medium
+  answer_skill: 複数ページにわたる列挙
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000040369.pdf
+    pages:
+    - number: 28
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 43.61
+        left: 13.86
+        width: 13.16
+        height: 2.97
+      - top: 11.54
+        left: 13.41
+        width: 29.06
+        height: 2.97
+    - number: 29
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 60.31
+        left: 13.52
+        width: 13.6
+        height: 2.97
+    - number: 30
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 56.51
+        left: 13.86
+        width: 13.6
+        height: 2.73
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: false
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
+- no.: '100'
+  question: 整備工場からのリユース部品の在庫問合せから納品までの手順を説明してください。
+  answer: '整備工場からの在庫問合せは「電話」又は「FAX」で行われる（STEP1）
+
+    その情報を基に、問合せを受けたリユース部品供給業者は自社在庫を検索し、そこになかった場合は、加盟している部品供給団体の在庫共有システムを用いて、ネットワークに登録された部品から検索を行う（STEP2）
+
+    次にその結果を、整備工場に「電話」又は「FAX」で行う（STEP3）。
+
+    整備工場では、複数社からの回答結果を比べ、最終的に発注を行う（STEP4）。
+
+    注文を受けたリユース部品供給業者に在庫がある場合は、そこから整備工場に出荷される（STEP6）。
+
+    一方で、在庫共有システムに登録された在庫を利用する場合、注文を受けたリユース部品供給業者は在庫を保有する供給業者に依頼し（STEP5）、当該在庫を保有する供給業者から整備工場にリユース部品が出荷される（STEP6）'
+  question_type: Enumeration
+  retrieval_level: Medium
+  answer_level: Easy
+  answer_skill: 記載通りに回答
+  tag: テキスト
+  grading_criteria: ''
+  rationales:
+  - file_name: 000040369.pdf
+    pages:
+    - number: 30
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 77.65
+        left: 13.07
+        width: 73.85
+        height: 11.76
+    - number: 31
+      view:
+        width: 100
+        height: 100
+      bounding_boxes:
+      - top: 11.38
+        left: 13.3
+        width: 73.96
+        height: 17.85
+  Reasoning Complexity:
+    Reasoning Depth (Multi-step Reasoning):
+      value: single
+    Quantitative Operation:
+      value: false
+    Negation Question:
+      value: false
+    Cause and Effect:
+      value: false
+    Comparison (and Conditional Judgment):
+      value: false
+    Temporal Specification:
+      value: true
+    Type of Output Processing:
+      value: list
+  Retrieval Difficulty:
+    multi-document:
+      value: false
+    multi-chunk:
+      value: true
+    Low Locality:
+      value: true
+    Remote Reference:
+      value: false
+    Document Volume:
+      value: '>=1000p'
+    Chunk Size:
+      value: '<=511tok'
+    Abstraction Discrepancy:
+      value: false
+    Vocabulary Mismatch:
+      value: false
+  Source Structure & Modality:
+    Tables/Charts:
+      value: false
+    Complex Layout:
+      value: false
+    Specific Area Reference:
+      value: false
+    Logical Nesting:
+      value: false
+    Large Enumeration:
+      value: true
+    Redundancy:
+      value: false
+  Explainability Requirement:
+    Strictness of Evidence Presentation:
+      value: multi-ref
