@@ -6,6 +6,8 @@ AAAI2026 のワークショップで発表の論文
 Overcoming the ‘Impracticality’ of RAG: Proposing a Real-World Benchmark and Multi-Dimensional Diagnostic Framework
 で紹介しているベンチマークデータセットです。
 
+[本ベンチマークデータセットについてのブログはこちら](https://blog.fltech.dev/entry/2026/03/11/RAG-Hard-Benchmark-ja)
+
 ## データ構成
 
 - `dataset/FJ_KGQA_Hard.yaml`: アノテーションデータ (全 100 問)

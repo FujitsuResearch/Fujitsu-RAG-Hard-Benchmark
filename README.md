@@ -5,6 +5,8 @@
 This is the benchmark dataset introduced in the AAAI 2026 workshop paper
 "Overcoming the 'Impracticality' of RAG: Proposing a Real-World Benchmark and Multi-Dimensional Diagnostic Framework."
 
+[For the blog about this benchmark dataset, click here.](https://blog-en.fltech.dev/entry/2026/03/11/RAG-Hard-Benchmark-en)
+
 ## Data layout
 
 - `dataset/FJ_KGQA_Hard.yaml`: annotation data (100 questions)
